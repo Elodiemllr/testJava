@@ -48,8 +48,17 @@ Base binaire        (2 => 0 & 1) 0b
 Base Octale         (8 => 0 à 7) 0
 Base hexadécimale   (16 => 0 & f) ox
 
-Java à prévu des notations spéciales pour ces types, exemple pour une valeur binaire 
+Java à prévu des notations spéciales pour ces types aussi, comme pour les séparations, exemple pour une valeur binaire 
 binaire => 0b devant le nombre, donc 0b110112101
 Octale => 0 devant, donc 07546
 Héxadécimale 0xAF542B
+ */
+
+ /* Caractères spéciaux :
+ \n : retour  à la ligne
+ \t : tabulation
+ \r retour chariot
+ \b : retour arrière
+ \f : nouvelle page
+ \' : comme sur js pour les "" '' 
  */
