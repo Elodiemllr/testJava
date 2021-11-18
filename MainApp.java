@@ -1,7 +1,8 @@
  //class = entité 
  // nom du fichier = nom de la class
 
- class MainApp 
+ //on met public pour pouvoir acceder à main partout 
+ public class MainApp 
  {
      //function à l'interieur d'une class = methode 
 
@@ -29,3 +30,26 @@
      public static void main(String[] args)
      { }
  }
+
+
+ /* 
+ On peut noter nos nombre entier sous différente façon : 
+Nombre entier : 14
+                18666
+                100000
+Mais pour que ça soit plus clair on peut mettre des séparations pour que ça soit plus clair, tout les 3 chiffres, exemple :
+                100_000
+                14_000
+
+
+On peut aussi avoir différentes bases numériques :
+Base décimale       (10 => nombre de 0 à 9 )
+Base binaire        (2 => 0 & 1) 0b
+Base Octale         (8 => 0 à 7) 0
+Base hexadécimale   (16 => 0 & f) ox
+
+Java à prévu des notations spéciales pour ces types, exemple pour une valeur binaire 
+binaire => 0b devant le nombre, donc 0b110112101
+Octale => 0 devant, donc 07546
+Héxadécimale 0xAF542B
+ */
