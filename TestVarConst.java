@@ -24,10 +24,14 @@
    /*  birthYear = 1905;
      System.out.println(birthYear);*/
 
-     } 
-  
 
- 
+     //test perso :
+     boolean likeMovie = false;
+     System.out.println(likeMovie);
+     likeMovie = true;
+     System.out.println(likeMovie);
+
+     } 
  
 }
 
