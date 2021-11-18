@@ -6,8 +6,14 @@
  + - * / % ()pour des soustractions, multiplication, modulo (le reste d'une division) etc 
  
  opérateurs de comparaison comme en js 
- == (on verifie juste la valeur) === (ici on verifie la valeur et son type) != (ifferent) < > !monmot (inverse de mon mot)
- 
+ == (on verifie juste la valeur) 
+ === (ici on verifie la valeur et son type) 
+ (different) !=
+ < > !monmot (inverse de mon mot)
+<= => && ||
+
+
+
  opérateurs de l'incrementation
  ++ --(ajouter, enlever) += -= *= %= le égale permet de racourcir l'opération, au lieu de 
  xp = xp +10 => xp =+ 10
@@ -32,7 +38,8 @@ public class TestOperateur {
         xp ++;
         System.out.println(xp);
 
- 
+      
+    
 
     }
 }
