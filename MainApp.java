@@ -5,7 +5,7 @@
  {
      //function à l'interieur d'une class = methode 
 
-     //main = function de départ du programm, obligatoire car il veut demarrer par  celle ci
+     //main = function /methode de départ du programm, obligatoire car il veut demarrer par  celle ci
      //String[] args  = paramètre/argument qu'on veut passer à notre function, obligatoire de signer 
      //void = car aucun retour attendu 
      //static = méthode executable ici
@@ -18,4 +18,14 @@
          // Println est aussi une function disponible qui nous permet d'affficher quelque chose à la sortie (comme console.log), ln = retour à la ligne 
          System.out.println("Hello world");
      }
+ }
+
+ // Compilation, dans le terminal : javac monfichier.java
+ // Executer : java monfichier
+
+ 
+ class Test 
+ {
+     public static void main(String[] args)
+     { }
  }
