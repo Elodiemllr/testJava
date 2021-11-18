@@ -17,7 +17,8 @@
          //System est une class native de java, lié au system
          /// out est un attribu, une variable dans une class 
          // Println est aussi une function disponible qui nous permet d'affficher quelque chose à la sortie (comme console.log), ln = retour à la ligne 
-         System.out.println("Hello world");
+         
+         System.out.println(" \t Hello  world"); // = console.log()
      }
  }
 
@@ -25,12 +26,6 @@
  // Executer : java monfichier
 
  
- class Test 
- {
-     public static void main(String[] args)
-     { }
- }
-
 
  /* 
  On peut noter nos nombre entier sous différente façon : 
@@ -54,11 +49,13 @@ Octale => 0 devant, donc 07546
 Héxadécimale 0xAF542B
  */
 
- /* Caractères spéciaux :
+ /* Caractères spéciaux, à utiliser dans le texte :
  \n : retour  à la ligne
- \t : tabulation
+ \t : tabulation, espace avant texte
  \r retour chariot
  \b : retour arrière
  \f : nouvelle page
  \' : comme sur js pour les "" '' 
  */
+
+
