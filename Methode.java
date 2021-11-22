@@ -18,7 +18,15 @@ public class Methode {
         myMethode ();
         myMethode ();
         System.out.println(getNumberTwo()); 
+        System.out.println(getNumber ()); 
 
+        //execution de la methode avec params
+        say("test ", 5);
+        say("Ola ", 6);
+
+        System.out.println(mySum(2, 5));
+
+        System.out.println(mySum(2.3, 4.5));
     }
 
     //on va créer une methode
@@ -35,5 +43,36 @@ public class Methode {
         //là on veut que notre méthode/function nous retourne le chiffre 2;
         //lorsqu'il y'a un return, cela arrête ensuite notre methode (comme en js)
         return 2;
+    }
+
+    //autre exemple
+    public static int getNumber() {
+        boolean info = false;
+
+        //si info = true 
+        if (info) {
+            return 1;
+         //sinon
+        } else {
+            return 0;
+        }
+    }
+
+    //une méthode peut aussi avoir des paramètre
+    //cette méthode va prendre en paramètres un message 
+    //cette méthode aura pour function de nous afficher le message pris en params
+   //là on peut retrouver le params modifié dans main (voir plus haut)
+    public static void say(String msg, int nb) {
+        System.out.println(msg); 
+
+    }
+
+    //en Java on peut  créer des méthodes avec le même nom tant qu'elle ont une signature, des paramètres ou un retour différent 
+    // ici l'une renvoie un int, l'autre un float 
+    public static int mySum(int a, int b) {
+        return a + b;
+    }
+    public static double mySum(double a, double b) {
+        return a + b;
     }
 }
