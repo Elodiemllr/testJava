@@ -27,6 +27,12 @@ public class Methode {
         System.out.println(mySum(2, 5));
 
         System.out.println(mySum(2.3, 4.5));
+
+
+        //methode constructor via le fichier player
+        Player p1 = new Player();
+        Player p2 = new Player("Elodie");
+        Player p3 = new Player("Bruno", 5);
     }
 
     //on va créer une methode
@@ -67,6 +73,7 @@ public class Methode {
 
     }
 
+    //Surcharge de méthode
     //en Java on peut  créer des méthodes avec le même nom tant qu'elle ont une signature, des paramètres ou un retour différent 
     // ici l'une renvoie un int, l'autre un float 
     public static int mySum(int a, int b) {
@@ -75,4 +82,6 @@ public class Methode {
     public static double mySum(double a, double b) {
         return a + b;
     }
+
+ 
 }
