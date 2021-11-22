@@ -10,9 +10,10 @@ public class ClassConstruction {
         //Java sait tout seul acceder au fichier donc pas besoin d'import
 //cat = class
 // miaou = instance de cat
-Cat miaou = new Cat();
+//nps chats auront deux params, un Name et un Age
+Cat miaou = new Cat("Kito", 1);
 //là, chaque objet (chaque chat), chaque instance de notre class "cat" aura sa zone mémoire, sera unique
-Cat miaou1 = new Cat();
+Cat miaou1 = new Cat("Boubou", 5);
 
 }
      
