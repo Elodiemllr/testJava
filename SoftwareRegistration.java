@@ -1,6 +1,11 @@
 //Encapsulation de données 
 public class SoftwareRegistration {
 
+    //variable de class 
+    // on veut pouvoir enregistrer des logiciel mais jusqu'à 4 licence 
+    //au bout de 4 je ne pourais plus faire de logiciel 
+    private static int numberOfRegistration = 4;
+
     //si je ne le met pas "private" je vais pouvoir aller le modifier dans une autre class
      private int expirationYear;
 
@@ -10,9 +15,17 @@ public class SoftwareRegistration {
     // a créer dans la class en question
 
     public SoftwareRegistration(int expiration) {
-        this.expirationYear = expiration;
 
-        System.out.println("Valide jusqu'en " +  this.expirationYear);
+        //si notre nombre de registration est supérieur à 0 
+        if (numberOfRegistration > 0)  {
+        this.expirationYear = expiration;
+        //puis je retire 1 
+        numberOfRegistration--;
+        System.out.println("Valide jusqu'en " +  this.expirationYear + "nombre restant " + this.numberOfRegistration); 
+        } else {
+            System.out.println("Plus de licence disponible"); 
+        }
+        
     }
 
     //pour chaque attribut on va creer deux methodes supplémentaire 

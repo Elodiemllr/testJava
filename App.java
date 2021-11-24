@@ -3,6 +3,10 @@ public class App {
     public static void main(String [] args)
     {
         SoftwareRegistration yearActual = new SoftwareRegistration(2020);
+        SoftwareRegistration yearActual2 = new SoftwareRegistration(2040);
+
+    
+
         /*
         Maintenant je ne pourrais pas modifié l'expiration year car l'acces est privé
         yearActual.expirationYear = 2022; 
@@ -16,6 +20,9 @@ public class App {
         //APRES
         yearActual.setExpirationYear(2025);
         System.out.println(yearActual.getExpirationYear());
+
+        System.out.println(yearActual2.getExpirationYear());
+
     }
     
 }
