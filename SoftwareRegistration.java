@@ -1,7 +1,8 @@
 //Encapsulation de données 
 public class SoftwareRegistration {
 
-    private int expirationYear;
+    //si je ne le met pas "private" je vais pouvoir aller le modifier dans une autre class
+     int expirationYear;
 
     //accésseur (geteur, seteur, get set)
     //getters: acceder à un attreibut
