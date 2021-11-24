@@ -19,7 +19,7 @@ public class SoftwareRegistration {
     //c'est pour garder ce principe d'encapsulation des données
     //on va modifier via nos accesseur (set get)
 
-    //ACCESSEUR
+    //ACCESSEUR = 1 attribut = 1 setter + 1 getter
 
     //getter
     //en general un getter ne prends pas de parametres
