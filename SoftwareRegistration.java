@@ -6,6 +6,8 @@ public class SoftwareRegistration {
     //au bout de 4 je ne pourais plus faire de logiciel 
     private static int numberOfRegistration = 4;
 
+    
+
     //si je ne le met pas "private" je vais pouvoir aller le modifier dans une autre class
      private int expirationYear;
 
