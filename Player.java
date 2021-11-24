@@ -26,4 +26,9 @@
             System.out.println(this.Name  );
             System.out.println(  this.Level);
         }
+
+        public void attack() {
+            System.out.println(this.Name + "Attaque !");
+        }
+ 
     }

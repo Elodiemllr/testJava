@@ -32,7 +32,8 @@ public class Methode {
         //methode constructor via le fichier player
         Player p1 = new Player();
         Player p2 = new Player("Elodie");
-        Player p3 = new Player("Bruno", 5);
+        Player p3 = new Player("Bruno", 5); 
+        p1.attack();
     }
 
     //on va créer une methode
