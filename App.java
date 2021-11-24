@@ -4,6 +4,9 @@ public class App {
     {
         SoftwareRegistration yearActual = new SoftwareRegistration(2020);
         SoftwareRegistration yearActual2 = new SoftwareRegistration(2040);
+        SoftwareRegistration yearActual3 = new SoftwareRegistration(2050);
+        SoftwareRegistration yearActual4 = new SoftwareRegistration(2032); 
+        SoftwareRegistration yearActual5 = new SoftwareRegistration(2033); 
 
     
 
@@ -22,6 +25,10 @@ public class App {
         System.out.println(yearActual.getExpirationYear());
 
         System.out.println(yearActual2.getExpirationYear());
+        
+        System.out.println(yearActual3.getExpirationYear());
+        System.out.println(yearActual4.getExpirationYear());
+        System.out.println(yearActual5.getExpirationYear());
 
     }
     

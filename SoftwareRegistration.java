@@ -18,10 +18,12 @@ public class SoftwareRegistration {
 
         //si notre nombre de registration est supérieur à 0 
         if (numberOfRegistration > 0)  {
+            //alors on créer une licence 
         this.expirationYear = expiration;
         //puis je retire 1 
         numberOfRegistration--;
-        System.out.println("Valide jusqu'en " +  this.expirationYear + "nombre restant " + this.numberOfRegistration); 
+        System.out.println("Valide jusqu'en " +  this.expirationYear + " nombre restant " + this.numberOfRegistration); 
+        //quand on a plus de licence dispo, on arrête
         } else {
             System.out.println("Plus de licence disponible"); 
         }
