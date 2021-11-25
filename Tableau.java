@@ -42,4 +42,12 @@ public class Tableau {
     }
 }
     
+//exemple d'une class qui r'envoie un tableau
+public static void printTab(int[] t) {
+    for (int element : t ) {
+        System.out.println(element);
+    }
+}
+
+
 }
